@@ -1,0 +1,11 @@
+version: '2'
+services:
+  demandecredit-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/DemandeCredit/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=DemandeCredit
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

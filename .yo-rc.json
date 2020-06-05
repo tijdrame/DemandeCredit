@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.boa.api"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "DemandeCredit",
+    "packageName": "com.boa.api",
+    "packageFolder": "com/boa/api",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmViYzBlNWUzOWYxMzcyYWJlMzBjNGUzYWI0ZWU5ZjljOTRmZDZjNWMxMDE4OGNiNjg5NTZmZTQ4N2I3ZDYyNmE0MjllNzYwODlkODdjYjg0YzY4ZmE1OGVlNjk3YjNjZjkzY2QyMDQ3OTAzZjViZmI1NjY3NmI3OTYyMDdlMmU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1588670748119,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true
+  }
+}
